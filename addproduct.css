@@ -1,0 +1,52 @@
+.lbl1 {
+    font-size: 24;
+    font-weight: bold;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.pm1 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productimg {
+    /* height: 250px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.searchbtn {
+    height: 50px;
+}

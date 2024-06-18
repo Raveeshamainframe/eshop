@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand_Book.otf");
+}
+
+@font-face {
+    font-family: "Honeyscript";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.label1 {
+    font-size: 16px;
+}
+
+.label2 {
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carticon {
+    height: 32px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.logoimg {
+    height: 80px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.searchbtn {
+    height: 50px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.posterimg1 {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.postercaption {
+    margin-bottom: 220px;
+}
+
+.postertitle {
+    font-size: 55px;
+    color: gray;
+}
+
+.postertext {
+    font-size: 30px;
+    color: gray;
+}
+
+.postercaption1 {
+    margin-bottom: 70px;
+    margin-right: 250px;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.cardTopImg {
+    height: 20vh;
+    width: 25vh;
+    background-size: contain;
+}
+
+
+/* /////////////////////////////// */
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.searchbtn1 {
+    width: 100%;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* //////////////////// */
+
+.emptyview {
+    height: 400px;
+    background-image: url("resources/wishlist.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url("resources/cart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cartqtytxt {
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+
+/* invoiceheaderimg */
+
+.invoiceheaderimg {
+    height: 80px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*messages*/
+
+.message-box,
+.chatbox {
+    height: 510px;
+    overflow-y: scroll;
+}

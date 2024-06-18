@@ -1,0 +1,14 @@
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.side {
+    float: left;
+    width: 15%;
+}
+
+.bar5 {
+    height: 25px;
+}

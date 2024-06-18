@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: white;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 105px;
+    height: 45px;
+    padding: 7px;
+}
+
+.qty_button {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px #e5e5e5;
+    padding: 2px;
+}
+
+.qty_inc,
+.qty_dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.qty_inc {
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+}
+
+.qty_dec {
+    padding-top: 2px;
+    justify-content: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand_Book.otf");
+}
+
+@font-face {
+    font-family: "Honeyscript";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title {
+    font-family: "Honeyscript";
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("resources/background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-background {
+    background-image: url("resources/background-body.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* firstplace */
+
+.firstplace {
+    height: 90px;
+    background-image: url("resources/first_place.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* addnewimg */
+
+.addnewimg {
+    height: 50px;
+    ;
+    background-image: url("resources/massage/addnew.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 100%;
+}
